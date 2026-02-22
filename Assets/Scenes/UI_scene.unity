@@ -1300,6 +1300,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1404638846}
+        m_TargetAssemblyTypeName: TimerScript, Assembly-CSharp
+        m_MethodName: StartStopwatch
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   m_IsOn: 0
 --- !u!1 &1336433896
 GameObject:
@@ -1570,6 +1582,8 @@ GameObject:
   - component: {fileID: 1404638842}
   - component: {fileID: 1404638844}
   - component: {fileID: 1404638845}
+  - component: {fileID: 1404638846}
+  - component: {fileID: 1404638847}
   m_Layer: 0
   m_Name: ScriptHolder
   m_TagString: Untagged
@@ -1623,6 +1637,33 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f33569c0121e9b94dae26900bafea36c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1404638846
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1404638840}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0c7fdb61e5a61844870600ed2703a5b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timerText: {fileID: 2080065665}
+--- !u!114 &1404638847
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1404638840}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7705a2f924884e844a1d9a91175fd839, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  counterText: {fileID: 0}
+  life: {fileID: 0}
 --- !u!1 &1483694360
 GameObject:
   m_ObjectHideFlags: 0
