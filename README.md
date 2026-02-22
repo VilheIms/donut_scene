@@ -1,17 +1,11 @@
-# Unity_bean
-Testa projekts, kas demonstrē Unity UI elementu lietojumu par tēmu "MR. Bīns"
+# Donut game
+Aina no Unity_Bean projekta, kur var ķert virtuļus un atsprāgt.
 
 **Darāmo darbu saraksts:**
-- [x] UI Button lietojums
-- [x] UI Input field lietojums
-- [x] UI Text lietojums
-- [x] UI Image lietojums
-- [x] UI radio button lietojums
-- [x] UI slider lietojums
-- [x] Drag and drop funkcionalitāte
-- [x] Audio source lietojums
-- [x] Riggid body un collider lietojums
-- [x] Projekta sagatavošana Windows OS
-- [ ] Izveidot galvenās izvēlnes ainu (paši)
-- [ ] Izveidot TV ainu (paši)
-- [ ] Integrēt virtuļu ķeršanas spēli
+- [x] Iespēja ķert virtuļus
+- [x] Speciāls virtulis (+5 punkti un nepalielina izmēru)
+- [x] Bīstami objekti kas nogalina Mr. Bean
+- [x] Taimeris
+- [x]  Dzīvību skaitītājs
+- [x] Punktu skaitītājs
+- [x] Spēles apture nāves gadījumā
