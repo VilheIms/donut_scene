@@ -1,12 +1,15 @@
 using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class DonutDestroyScript : MonoBehaviour
 {
     SFX_Script sfx;
     public TMP_Text counterText;
     public TMP_Text life;
+    public GameObject Switch;
+    public Toggle toggle;
     private int destroyedDonuts;
     private int Life;
 
@@ -42,10 +45,13 @@ public class DonutDestroyScript : MonoBehaviour
 
         if (Life == 0)
         {
+            
+            toggle.isOn = false;
             Life = 3;
             destroyedDonuts = 0;
             life.text = "Life: " + Life;
             counterText.text = "Points: " + destroyedDonuts;
+            Switch.SetActive(true);
         }
     }
 }

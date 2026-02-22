@@ -1664,6 +1664,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   counterText: {fileID: 0}
   life: {fileID: 0}
+  Switch: {fileID: 0}
+  toggle: {fileID: 0}
 --- !u!1 &1483694360
 GameObject:
   m_ObjectHideFlags: 0
@@ -1805,6 +1807,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   counterText: {fileID: 425079064}
   life: {fileID: 80368460}
+  Switch: {fileID: 1316051579}
+  toggle: {fileID: 1316051581}
 --- !u!1 &1503382371
 GameObject:
   m_ObjectHideFlags: 0
