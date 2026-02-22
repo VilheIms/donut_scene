@@ -35,7 +35,7 @@ public class DonutBakerScript : MonoBehaviour
             Vector2 spawnPoz = new Vector2(randPoz, ovenTransform.position.y);
             
             random = Random.Range(0, 11);
-            if(random < 5) { 
+            if(random < 7) { 
 
             int donutIndex = Random.Range(0, donutPrefabs.Length);
             Instantiate(donutPrefabs[donutIndex], spawnPoz, Quaternion.identity, ovenTransform);

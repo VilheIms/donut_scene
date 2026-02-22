@@ -19,7 +19,7 @@ public class MissedDonutsScript : MonoBehaviour
         {
             Destroy(collision.gameObject);
             destroyedDonuts++;
-            sfx.PlaySFX(3);
+            sfx.PlaySFX(4);
             counterText.text = "Donuts missed:\n" + destroyedDonuts;
         }
     }
