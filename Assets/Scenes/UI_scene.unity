@@ -1093,7 +1093,7 @@ AudioSource:
   m_audioClip: {fileID: 8300000, guid: 8893554935cf87045b1dd0903384ab1c, type: 3}
   m_Resource: {fileID: 8300000, guid: 8893554935cf87045b1dd0903384ab1c, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.01
+  m_Volume: 0.3
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -1827,7 +1827,7 @@ MonoBehaviour:
   life: {fileID: 80368460}
   Switch: {fileID: 1316051579}
   toggle: {fileID: 1316051581}
-  missedDonutsScript: {fileID: 0}
+  missedDonutsScript: {fileID: 1336433899}
 --- !u!1 &1503382371
 GameObject:
   m_ObjectHideFlags: 0

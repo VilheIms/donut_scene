@@ -53,6 +53,7 @@ public class DonutDestroyScript : MonoBehaviour
             missedDonutsScript.missedDonuts = 0;
             life.text = "Life: " + Life;
             counterText.text = "Points: " + destroyedDonuts;
+            missedDonutsScript.counterText.text = "Missed donuts: " + missedDonutsScript.missedDonuts;
             Switch.SetActive(true);
         }
     }
