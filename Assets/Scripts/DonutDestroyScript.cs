@@ -13,13 +13,23 @@ public class DonutDestroyScript : MonoBehaviour
     private int destroyedDonuts;
     private int Life = 3;
     public MissedDonutsScript missedDonutsScript;
-
  
     void Start()
     {
       sfx = FindFirstObjectByType<SFX_Script>();
     }
-
+    public void timerPause()
+    {
+        if(toggle.isOn == false)
+        {
+            GetComponent<TimerScript>().StopStopwatch();
+        }
+        else if (toggle.isOn == true)
+        {
+            GetComponent<TimerScript>().ResetStopwatch();
+            GetComponent<TimerScript>().StartStopwatch();
+        }
+    }
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Donut"))
